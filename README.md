@@ -1,23 +1,47 @@
-# Jose Balbuena
+<h1 align="center">Jose Balbuena</h1>
+<p align="center">
+  <strong>I build AI systems that automate Go-to-Market operations for B2B companies.</strong>
+</p>
+<p align="center">
+  Founder of <a href="https://mantyl.ai">Mantyl.ai</a> — we deploy production AI workflows for sales, RevOps, and GTM teams.<br/>
+  From prospect discovery to enriched outbound sequences to live AI-powered sales calls, shipped and running.
+</p>
 
-**GTM Engineer & AI Systems Builder**
+<p align="center">
+  <a href="https://mantyl.ai">🌐 mantyl.ai</a> &nbsp;·&nbsp;
+  <a href="https://sophie.mantyl.ai">🎙️ Try Sophie</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/jose-balbuena">LinkedIn</a>
+</p>
 
-Building AI-native infrastructure for Go-to-Market teams — voice systems, enablement engines, and workflow automation that compounds over time.
+---
 
-## What I Build
+## What I Ship
 
-**[GTM Enablement Engine](https://github.com/jbalbu01/gtm-enablement-engine)** — A Claude-native plugin with 18 skills, persistent memory, and self-healing content management for sales teams. Every interaction makes the system smarter.
+**[Sophie](https://sophie.mantyl.ai)** — AI voice agent that conducts live sales discovery conversations and generates structured intelligence reports. Dual-model architecture: GPT-4o for real-time conversation, Claude Haiku for debrief synthesis. ElevenLabs TTS for voice output. Runs at ~$0.03 per session with a 3-session free tier. Deployed on Netlify with serverless functions.
 
-**FIELDOPS AI** — Voice-to-invoice system for field service companies. Technicians call in, AI processes the conversation, and invoices are created automatically in Jobber CRM. Built with Twilio, Deepgram, ElevenLabs, and OpenAI.
+**Sequence Generator** — ICP-to-outbound pipeline that collapses 4–6 sales tools into one workflow. Define your ideal customer profile → discover prospects from 270M+ contacts via Apollo → waterfall email enrichment (Apollo → Hunter.io → pattern inference) → async phone enrichment → AI-generated multi-channel sequences via Claude Sonnet. Under 60 seconds from ICP to ready-to-send.
 
-**[Mantyl.ai](https://mantyl.ai)** — AI automation agency helping SMBs implement production-ready AI workflows.
+**[GTM Enablement Engine](https://github.com/jbalbu01/sales-enablement-plugin)** — Claude plugin with 18 skills, 7 slash commands, persistent memory, and self-healing content that flags stale battle cards and playbooks automatically. Covers sales, CS, marketing, partnerships, and RevOps. Works standalone or supercharged with MCP connectors for HubSpot, Gong, Slack, and ZoomInfo.
+
+**[Sales Intelligence MCP Server](https://github.com/jbalbu01/sales-intelligence-mcp-server)** — 16-tool MCP server connecting Claude to Gong, ZoomInfo, Clay, and LinkedIn Sales Navigator. TypeScript, single install, MIT licensed.
+
+---
+
+## Live
+
+| Product | Link | What It Does |
+|---------|------|-------------|
+| Sophie | [sophie.mantyl.ai](https://sophie.mantyl.ai) | AI voice agent — 3 free sessions |
+| Mantyl | [mantyl.ai](https://mantyl.ai) | Agency site, tools, and booking |
+
+---
 
 ## Stack
 
-`Claude` `OpenAI` `n8n` `HubSpot` `Twilio` `Deepgram` `ElevenLabs` `Python` `Node.js` `Clay` `Apollo`
+`Claude` · `OpenAI` · `Node.js` · `React` · `TypeScript` · `Netlify` · `n8n` · `HubSpot` · `Apollo` · `Hunter.io` · `ElevenLabs` · `Twilio` · `Deepgram`
 
-## Background
+---
 
-Stanford · Columbia MBA & MS (AI & ML) · Previously built GTM operations at Doowi, Kidvokit, Noodle, Nike (win-loss analysis, sales forecasting, outbound automation).
-
-Based in NYC.
+<p align="center">
+  Stanford · Columbia MBA & MS (AI/ML) · NYC
+</p>
