@@ -1,49 +1,21 @@
-<h1 align="center">Jose Balbuena</h1>
-<p align="center">
-  <strong>I build AI systems that automate Go-to-Market operations for B2B companies.</strong>
-</p>
-<p align="center">
-  Founder of <a href="https://mantyl.ai">Mantyl.ai</a> — we deploy production AI workflows for sales, RevOps, and GTM teams.<br/>
-  From prospect discovery to enriched outbound sequences to live AI-powered sales calls, shipped and running.
-</p>
+# Hey, I'm Jose Balbuena
 
-<p align="center">
-  <a href="https://mantyl.ai">🌐 mantyl.ai</a> &nbsp;·&nbsp;
-  <a href="https://sophie.mantyl.ai">🎙️ Try Sophie</a> &nbsp;·&nbsp;
-  <a href="https://sequencer.mantyl.ai">🚀 Try Sequencer</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/jose-balbuena">LinkedIn</a>
-</p>
+I build AI systems that automate Go-to-Market operations for B2B sales teams.
 
----
+Founder of [Mantyl.ai](https://mantyl.ai) — production AI workflows for sales and revenue operations.
 
-## What I Ship
+Stanford undergrad. Columbia MBA + MS in AI/ML. Based in NYC.
 
-**[Sophie](https://sophie.mantyl.ai)** — AI voice agent that conducts live sales discovery conversations and generates structured intelligence reports. Dual-model architecture: GPT-4o for real-time conversation, Claude Haiku for debrief synthesis. ElevenLabs TTS for voice output. Runs at ~$0.03 per session with a 3-session free tier. Deployed on Netlify with serverless functions.
+## What I've Shipped
 
-**[Sequence Generator](https://sequencer.mantyl.ai)** — ICP-to-outbound pipeline that collapses 4–6 sales tools into one workflow. Define your ideal customer profile → discover prospects from 270M+ contacts via Apollo → waterfall email enrichment (Apollo → Hunter.io → pattern inference) → async phone enrichment → AI-generated multi-channel sequences via Claude Sonnet. Under 60 seconds from ICP to ready-to-send.
+**[Sales Enablement Plugin](https://github.com/jbalbu01/sales-enablement-plugin)** — A Claude plugin with 18 skills, 7 slash commands, and 16 MCP tools that learns from every deal. Integrates HubSpot, Gong, Slack, ZoomInfo, and Clay. Self-healing content that flags itself when it goes stale.
 
-**[GTM Enablement Engine](https://github.com/jbalbu01/sales-enablement-plugin)** — Claude plugin with 18 skills, 7 slash commands, persistent memory, and self-healing content that flags stale battle cards and playbooks automatically. Covers sales, CS, marketing, partnerships, and RevOps. Works standalone or supercharged with MCP connectors for HubSpot, Gong, Slack, and ZoomInfo.
+**[Sales Intelligence MCP Server](https://github.com/jbalbu01/sales-intelligence-mcp-server)** — Open-source TypeScript server (MIT) connecting Claude to Gong, ZoomInfo, Clay, and LinkedIn Sales Navigator. 16 tools for prospect research, call transcripts, lead enrichment, and org charts.
 
-**[Sales Intelligence MCP Server](https://github.com/jbalbu01/sales-intelligence-mcp-server)** — 16-tool MCP server connecting Claude to Gong, ZoomInfo, Clay, and LinkedIn Sales Navigator. TypeScript, single install, MIT licensed.
+**Sophie** — AI voice agent that handles live sales conversations and generates post-call intelligence reports. Built on GPT-4o, Claude Haiku, ElevenLabs, and Twilio. Runs at ~$0.03/session.
 
----
-
-## Live
-
-| Product | Link | What It Does |
-|---------|------|-------------|
-| Sophie | [sophie.mantyl.ai](https://sophie.mantyl.ai) | AI voice agent — 3 free sessions |
-| Sequencer | [sequencer.mantyl.ai](https://sequencer.mantyl.ai) | ICP-to-outbound in 60 seconds |
-| Mantyl | [mantyl.ai](https://mantyl.ai) | Agency site, tools, and booking |
-
----
+**Sequence Generator** — Prospect discovery to multi-channel outbound in under 60 seconds. Pulls from Apollo's 270M+ contacts, enriches with Hunter.io, and generates personalized sequences with AI.
 
 ## Stack
 
-`Claude` · `OpenAI` · `Node.js` · `React` · `TypeScript` · `Netlify` · `n8n` · `HubSpot` · `Apollo` · `Hunter.io` · `ElevenLabs` · `Twilio` · `Deepgram`
-
----
-
-<p align="center">
-  Stanford · Columbia MBA & MS (AI/ML) · NYC
-</p>
+Claude, OpenAI, TypeScript, Node.js, React, n8n, HubSpot, Apollo, Gong, ZoomInfo, Clay, ElevenLabs, Twilio, Deepgram, Netlify
