@@ -4,7 +4,7 @@ I build AI systems that automate Go-to-Market operations for B2B sales teams.
 
 Founder of [Mantyl.ai](https://mantyl.ai) — production AI workflows for sales and revenue operations.
 
-Stanford undergrad. Columbia MBA + MS in AI/ML. Based in NYC.
+Stanford MS. Columbia MBA + MS in AI/ML. Based in NYC.
 
 ## What I've Shipped
 
